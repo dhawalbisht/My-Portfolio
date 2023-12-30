@@ -281,6 +281,7 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
 
 .about-pic {

@@ -15,7 +15,6 @@ export const Projects = () => {
     </section>
   );
 };
-
 const projects = [
   {
     title: "Labour-Link",
@@ -56,26 +55,23 @@ The project serves the dual purpose of connecting both skilled and unskilled lab
     ),
   },
   {
-    title: "Vermilion",
-    imgSrc: "/project-imgs/portfolio.png",
-    code: "https://github.com/ShivaBhattacharjee/vermilion",
-    projectLink: "https://immashiva.vercel.app/",
-    tech: ["TypeScript", "NextJs", "EmailJs", "Framer-Motion", "SCSS"],
+    title: "Expense Tracker",
+    imgSrc: "/project-imgs/project2.jpg",
+    code: "https://github.com/dhawalbisht/Expense-Tracker",
+    projectLink: "https://dhawalbisht.github.io/Expense-Tracker/",
+    tech: ["JavaScript", "ReactJs", "Vite",  "CSS"],
     description:
-      "Vermilion is a stunning portfolio template designed to showcase your creative work with style and sophistication. Built using the cutting-edge Next.js framework, this template offers lightning-fast page loading times and a smooth user experience.",
+      "This project is a simple transaction management system where users can add new transactions by entering a text description and the corresponding amount. Transactions are categorized as either expenses (negative amounts) or income (positive amounts).",
     modalContent: (
       <>
         <p>
-          Vermilion is an exceptional portfolio template designed to showcase your creative work in a stunning and dynamic way. The template is built using TypeScript, which provides static type checking and helps ensure your code is robust and error-free.
+        Personal Finance Management: Individuals can use this application to track their personal expenses, income sources, and overall financial health. It serves as a digital ledger for managing budgets and analyzing spending patterns.
         </p>
         <p>
-          Vermilion is built on the Next.js framework, which offers many benefits such as fast page loading times and server-side rendering. This ensures that your portfolio website is performant, responsive, and delivers an excellent user experience.
+        Small Business Accounting: Small businesses or freelancers can utilize the application to record business transactions, monitor cash flows, and maintain accurate financial records. The categorization feature aids in separating business expenses from personal ones.
         </p>
         <p>
-          The template also integrates with EmailJS, a simple and reliable email delivery service that allows you to send messages via the contact form.
-        </p>
-        <p>
-          Overall, Vermilion is an outstanding portfolio template that combines the latest technologies and libraries to deliver a modern, professional, and highly effective website for showcasing your creative work.
+        Budget Tracking and Analysis: Users can leverage the total balance display and categorized transactions to create budgets, track expenses against income, identify areas for cost-cutting, and make informed financial decisions.
         </p>
       </>
     ),

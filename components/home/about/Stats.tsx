@@ -14,25 +14,19 @@ export const Stats = () => {
           </h4>
           <div className={styles.statGrid}>
             <span className="chip">JavaScript</span>
-            <span className="chip">TypeScript</span>
             <span className="chip">Python</span>
             <span className="chip">C++</span>
-            <span className="chip">Rust</span>
             <span className="chip">HTML</span>
             <span className="chip">CSS</span>
-            <span className="chip">SCSS</span>
             <span className="chip">Tailwind</span>
             <span className="chip">React</span>
-            <span className="chip">NextJs</span>
-            <span className="chip">Redux</span>
             <span className="chip">Redis</span>
             <span className="chip">NodeJS</span>
             <span className="chip">Express</span>
             <span className="chip">MongoDB</span>
             <span className="chip">MySql</span>
-            <span className="chip">Docker</span>
-            <span className="chip">Prisma</span>
-            <span className="chip">kubernetes</span>
+            <span className="chip">Hadoop</span>
+
           </div>
         </div>
       </Reveal>
@@ -49,8 +43,9 @@ export const Stats = () => {
             <span className="chip">Github</span>
             <span className="chip">Vercel</span>
             <span className="chip">Netlify</span>
-            <span className="chip">Railway</span>
             <span className="chip">Postman</span>
+            <span className="chip">Figma</span>
+            <span className="chip">Ms Office</span>
           </div>
         </div>
       </Reveal>

@@ -18,29 +18,39 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "AnimeTrix",
-    imgSrc: "/project-imgs/animetrix-website.png",
-    code: "https://github.com/ShivaBhattacharjee/AnimeTrix-next",
-    projectLink: "https://animetrix.xyz/",
-    tech: ["Typescript", "NextJs", "TailwindCss", "MongoDb"],
+    title: "Labour-Link",
+    imgSrc: "/project-imgs/project1.jpg",
+    code: "https://github.com/dhawalbisht/Labour-Link",
+    projectLink: "https://labour-link-knn1.vercel.app/",
+    tech: ["JavaScript", "ReactJs", "TailwindCss", "Firebase"],
     description:
-      "Animetrix is a project that utilizes the Anilist platform to obtain information on various anime titles, and it combines this data with the Gogoanime API to provide ad-free streaming of anime content.",
+      "Our platform streamlines the process of connecting laborers with employment opportunities, providing a user-friendly interface for both parties involved. Feel free to explore and contribute to our project!",
     modalContent: (
       <>
         <p>
-          Anime Trix is an anime streaming / downloading site that offers a vast collection of anime shows for streaming and downloading.
+The project serves the dual purpose of connecting both skilled and unskilled laborers seeking employment with users in need of their services. It is particularly beneficial for individuals looking to expand their reach in the job market or those new to a town seeking assistance with tasks such as house renovations, painting, electrical work, and more.
         </p>
         <p>
-          With a user-friendly interface, you can easily find your favorite anime shows and watch them in high-definition quality.
+        Platform Workflow</p>
+        <p>
+1. Labourer Registration:
+   - Labourers register on the website by submitting necessary documents and providing basic details.
+   - Access the registration form through the "Find Work" page.<p>
+
+
+2. User Hiring Process:
+   - Users sign in using their phone numbers for authentication and receive an OTP.
+   - Fill out the user form with specific details about the job requirements.
+   - Browse and hire laborers based on their profiles.
+   - Make payments securely through the website.
+
+   </p>
+3. Confirmation and Communication:
+   - Users receive email notifications containing details about the hired laborer.
+   - This ensures transparency and effective communication between the two parties.
         </p>
         <p>
-          Our platform is updated regularly with the latest anime episodes, so you can stay up-to-date with your favorite shows.
-        </p>
-        <p>
-          Anime Trix is the go-to destination for anime lovers who want to watch their favorite shows anytime, anywhere.
-        </p>
-        <p>
-          AnimTrix is hosted in vercel
+          Labour-Link is hosted in vercel
         </p>
       </>
     ),

@@ -61,24 +61,24 @@ export const Contact = () => {
             <p className={styles.contactCopy}>
               Shoot me an email if you want to connect! You can also find me on{" "}
               <Link
-                href="https://www.instagram.com/shivahereig/"
+                href="https://www.instagram.com/dhawal_bisht/"
                 target="_blank"
                 rel="nofollow"
               >
                 Instagram
               </Link>{" "}
               or{" "}
-              <Link href="https://www.twitter.com/sh17va" target="_blank" rel="nofollow">
-                Twitter
+              <Link href="https://www.linkedin.com/in/dhawal-bisht/" target="_blank" rel="nofollow">
+                LinkedIn
               </Link>{" "}
               if that&apos;s more your speed.
             </p>
           </Reveal>
           <Reveal width="100%">
-            <Link href="mailto:heyitsshiva@protonmain.me">
+            <Link href="mailto:dhawalbisht4543@gmail.com">
               <div className={styles.contactEmail}>
                 <AiFillMail size="2.4rem" />
-                <span>heyitsshiva@protonmail.me</span>
+                <span>dhawalbisht4543@gmail.com</span>
               </div>
             </Link>
           </Reveal>
@@ -99,7 +99,6 @@ export const Contact = () => {
                 Send Message
               </OutlineButton>
             </form>
-
           </Reveal>
         </div>
       </section>

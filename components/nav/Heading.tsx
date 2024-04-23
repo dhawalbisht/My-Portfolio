@@ -6,7 +6,7 @@ import {RiMenuUnfoldLine} from "react-icons/ri"
 export const Heading = () => {
   const [openMobile, setOpenMobile] = useState(false);
   const [selected, setSelected] = useState("");
-  const handleMobileViewOpen = () => {
+  const handleMobileViewOpen = () => { 
     setOpenMobile(true);
   };
   const handleMobileViewClose = () => {

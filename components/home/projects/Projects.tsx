@@ -17,7 +17,7 @@ export const Projects = () => {
 };
 const projects = [
   {
-    title: "Labour-Link",
+    title: "&quot;Labour-Link&quot;",
     imgSrc: "/project-imgs/project1.jpg",
     code: "https://github.com/dhawalbisht/Labour-Link",
     projectLink: "https://labour-link-knn1.vercel.app/",

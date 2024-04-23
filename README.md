@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website built with Next.js.
 
-![Portfolio Screenshot](public\project-imgs\screenshot.jpg)
+![Portfolio Screenshot](/public/project-imgs/screenshot.jpg)
 
 ## Overview
 

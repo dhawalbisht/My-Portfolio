@@ -17,7 +17,55 @@ export const Projects = () => {
 };
 const projects = [
   {
-    title: "&quot;Labour-Link&quot;",
+    title: "Inflow-Ai",
+    imgSrc: "/project-imgs/inflow.jpg",
+    code: "https://github.com/dhawalbisht/Inflow-Ai",
+    projectLink: "https://inflow-ai.vercel.app/",
+    tech: ["ReactJs", "NodeJs", "CohereAi"],
+    description:
+      "Inflow-Ai empowers users to effortlessly visualize their ideas with AI-generated mind maps and flowcharts, simplifying the brainstorming process and enhancing clarity in planning.",
+      modalContent: (
+        <>
+        <p>
+          Inflow-Ai is an innovative web application designed to help users visualize their ideas through AI-generated mind maps and flowcharts. By simply inputting a topic or keywords, users can see their thoughts transformed into structured visual representations, making complex concepts easier to understand.
+        </p>
+        <p>
+          The app features interactive flowcharts that allow users to explore their ideas in real-time, offering a dynamic approach to brainstorming and planning. With the ability to export mind maps and flowcharts as JPG or PDF files, sharing and printing becomes effortless.
+        </p>
+        <p>
+          Built with React and styled using Tailwind CSS, Inflow-Ai ensures a sleek and user-friendly experience across devices, making it accessible for both desktop and mobile users. Powered by Node.js and Express on the backend and hosted on Vercel, Inflow-Ai delivers fast and reliable performance.
+        </p>
+      </>
+      
+    ),
+  },
+  
+  {
+    title: "Insightify",
+    imgSrc: "/project-imgs/insight.jpg",
+    code: "https://github.com/dhawalbisht/Insightify",
+    projectLink: "https://github.com/dhawalbisht/Insightify",
+    tech: ["Fask", "ReactJs",  "CSS"],
+    description:
+      "This project provides a web-based PDF summarizer application with two main features: text summarization and question answering. The backend is powered by Flask, while the frontend is built using React.js.",
+    modalContent: (
+      <>
+        <p>
+        Our app simplifies complex PDFs, offering quick summaries and answering questions to boost productivity.
+        Leveraging Flask on the backend, the app seamlessly processes PDF documents uploaded by users, extracting key information for summarization and question answering.
+        </p>
+        <p>
+       Built with React on the frontend, the app features an intuitive and interactive user interface that allows users to upload PDFs, customize summary lengths, ask questions, and receive instant answers.
+        </p>
+        <p>
+        The app is designed for continuous improvement, with plans for incorporating additional features such as language translation, sentiment analysis, and document clustering to further enhance its capabilities.
+        </p>
+      </>
+    ),
+  },
+  
+  {
+    title: "Labour-Link",
     imgSrc: "/project-imgs/project1.jpg",
     code: "https://github.com/dhawalbisht/Labour-Link",
     projectLink: "https://labour-link-knn1.vercel.app/",
@@ -55,53 +103,6 @@ The project serves the dual purpose of connecting both skilled and unskilled lab
     ),
   },
 
-
-  {
-    title: "Insightify",
-    imgSrc: "/project-imgs/project3.jpg",
-    code: "https://github.com/dhawalbisht/Insightify",
-    projectLink: "https://github.com/dhawalbisht/Insightify",
-    tech: ["Fask", "ReactJs",  "CSS"],
-    description:
-      "This project provides a web-based PDF summarizer application with two main features: text summarization and question answering. The backend is powered by Flask, while the frontend is built using React.js.",
-    modalContent: (
-      <>
-        <p>
-        Our app simplifies complex PDFs, offering quick summaries and answering questions to boost productivity.
-        Leveraging Flask on the backend, the app seamlessly processes PDF documents uploaded by users, extracting key information for summarization and question answering.
-        </p>
-        <p>
-       Built with React on the frontend, the app features an intuitive and interactive user interface that allows users to upload PDFs, customize summary lengths, ask questions, and receive instant answers.
-        </p>
-        <p>
-        The app is designed for continuous improvement, with plans for incorporating additional features such as language translation, sentiment analysis, and document clustering to further enhance its capabilities.
-        </p>
-      </>
-    ),
-  },
-  
-  {
-    title: "Expense Tracker",
-    imgSrc: "/project-imgs/project2.jpg",
-    code: "https://github.com/dhawalbisht/Expense-Tracker",
-    projectLink: "https://dhawalbisht.github.io/Expense-Tracker/",
-    tech: ["JavaScript", "ReactJs", "Vite",  "CSS"],
-    description:
-      "This project is a simple transaction management system where users can add new transactions by entering a text description and the corresponding amount. Transactions are categorized as either expenses (negative amounts) or income (positive amounts).",
-      modalContent: (
-      <>
-        <p>
-        Personal Finance Management: Individuals can use this application to track their personal expenses, income sources, and overall financial health. It serves as a digital ledger for managing budgets and analyzing spending patterns.
-        </p>
-        <p>
-        Small Business Accounting: Small businesses or freelancers can utilize the application to record business transactions, monitor cash flows, and maintain accurate financial records. The categorization feature aids in separating business expenses from personal ones.
-        </p>
-        <p>
-        Budget Tracking and Analysis: Users can leverage the total balance display and categorized transactions to create budgets, track expenses against income, identify areas for cost-cutting, and make informed financial decisions.
-        </p>
-      </>
-    ),
-  },
 
   {
     title: "Credit Card Fraud Detection",

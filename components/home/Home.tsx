@@ -6,7 +6,8 @@ import { Heading } from "../nav/Heading";
 import { About } from "./about/About";
 import { Projects } from "./projects/Projects";
 import { Contact } from "./contact/Contact";
-import { ScrollTop } from "../buttons/ScrollTop"
+import { ScrollTop } from "../buttons/ScrollTop";
+
 export const Home = () => {
   return (
     <>
